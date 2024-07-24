@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #8dd1c4;
+    /*background: linear-gradient(90deg, #5936b4 0%, #362a84 100%);*/
+    color: #222;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .temp-converter {
+    background: #fff;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 25px 45px;
+    min-width: 320px;
+    width: 100%;
+    height: auto;
+    box-shadow: -5px -5px 250px 0px rgba(255, 255, 255, 0.02) inset;
+    backdrop-filter: blur(21px);
+  }
+  .title {
+    color: #222;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .result {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .heading {
+    color: #555;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .value {
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    transition: all .45s ease;
+  }
+  label {
+    color: #555;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+  }
+  .degree-type{
+    display: flex;
+    margin-bottom: 15px;
+    padding: 20px 0;
+  }
+  .degree-field,
+  .temperature-type {
+      flex: 1;
+      margin-right: 10px;
+  }
+  
+  .degree-field label,
+  .temperature-type label {
+      display: block;
+  }
+  .degree-field input,
+  .temperature-type select {
+      width: 100%;
+      background: transparent;
+      border: none;
+      outline: none;
+      border-bottom: 2px solid #ccc;
+      padding: 8px;
+      margin-bottom: 15px;
+  }
+  
+  button {
+      background: linear-gradient(to bottom, #3633f3, #120fb9);
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      color: #f6f6f6;
+      cursor: pointer;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-top: 10px;
+      padding: 12px 80px;
+      transition: all 0.3s ease-in;
+  }
+  button:hover {
+    background: linear-gradient(to bottom, #4a47e7, #322fda);
+}
+
+.loading {
+    display: none;
+}
+
+input:focus {
+    border: 1px solid #4c49f3;
+  }
+ 
+  
+    
