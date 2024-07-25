@@ -1,0 +1,63 @@
+  /*background-color:#FF8F00;
+  background-color:#070F2B;//navy
+   background-color:#0B666A;
+       background-color:#944E63;
+
+         #nav{
+    background-color:#070F2B; 
+  }
+
+     width:100%;
+  */
+  body::before{
+    display:block;
+    height:60px;
+    content:'';
+
+}
+
+ 
+  #Burger{
+    background-image: url("/img/burger.jpg");
+    height:550px;
+    background-size:cover;
+  }
+
+
+
+.btn{
+   
+    background-color:#A95C68 ;
+    color:white;
+    padding: 9px 24px;
+    font-weight:500;
+}
+.btn:hover{
+    color:white;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link .active
+{
+color:#ff4d29;
+}
+div{
+    display:block;
+}
+#nav{
+    background-color:#A95C68; 
+ }
+ .index{
+  background-color:#A95C68 ;
+  height: 10px;
+}
+.red{
+  background-color: #EADDCA;
+
+}
+#review{
+  background-image: url("/img/burger3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
